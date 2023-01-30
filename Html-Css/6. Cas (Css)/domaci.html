@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Unos imena,Sifra,Dugme za prijavu -->
+    <!-- Username, password, datum rodjenja, odaberite svoj status, buttor za reset i prijavu -->
+    <title>Document</title>
+    <style>
+      div {
+        background-color: blanchedalmond;
+        margin-left: 50px;
+        margin-top: 50px;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Domaci Zadatak</h1>
+      <form action="../4. Cas/domaci (raspored).html" target="_blank">
+        <label for="Username"></label>
+        <input
+          type="username"
+          name="ime"
+          id="Username"
+          placeholder="Unesite Username"
+          required
+          maxlength="11"
+          minlength="3"
+        />
+        <br />
+        <br />
+        <label for="Password"></label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+          placeholder="Unesite vasu Sifru"
+          maxlength="20"
+          minlength="3"
+        />
+        <br />
+        <br />
+        <button type="submit">Prijavi se</button>
+      </form>
+      <br />
+      <br />
+      <hr />
+    </div>
+    <h1
+      style="
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      "
+    >
+      Drugi Deo Domaceg
+    </h1>
+    <form
+      target="_blank"
+      action="https://www.youtube.com/index"
+      style="background-color: lightblue"
+    >
+      <label for="username">Unesite vas Username:</label>
+      <input type="username" name="ime" id="username" required minlength="3" />
+      <br />
+      <br />
+      <label for="password">Unesite vasu Sifru:</label>
+      <input
+        type="password"
+        name="sifra"
+        id="password"
+        required
+        minlength="3"
+      />
+      <br />
+      <br />
+      <label for="datum">Unesite vas Datum rodjenja:</label>
+      <input type="date" name="datum" id="datum" required min="1940-01-01" />
+      <br />
+      <br />
+      <label for="obrazovanje">Odaberite svoj stepen obrazovanja</label>
+      <select name="obrazovanje" id="obrazovanje" required>
+        <option value="Opste">Opste</option>
+        <option value="Srednje">Srednje</option>
+        <option value="Vise">Vise</option>
+        <option value="Visoko">Visoko</option>
+      </select>
+      <br />
+      <br />
+      <label for="male">Odaberite vas Pol:</label>
+      <input type="radio" name="m" id="male" required />Musko
+      <label for="female"></label>
+      <input type="radio" name="m" id="female" required />Zensko
+      <br />
+      <br />
+      <button type="submit">Prijavi se</button>
+      <button type="reset">Resetuj</button>
+    </form>
+  </body>
+</html>

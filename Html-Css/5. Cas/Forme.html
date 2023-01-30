@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5. Cas</title>
+  </head>
+  <body>
+    <h1>Forme u HTML</h1>
+    <form action="https://www.youtube.com/index" target="_blank">
+      <label for="Username">Username:</label>
+      <input type="text" name="Username" id="Username" placeholder="Username" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="Email adresa"
+        id="email"
+        required
+        placeholder="Email"
+      />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="Password"
+        id="password"
+        required
+        placeholder="Password"
+      />
+      <br />
+      <br />
+      <label for="godine">Years:</label>
+      <input
+        type="number"
+        name="broj godina"
+        id="godine"
+        step="2"
+        min="7"
+        max="99"
+      />
+      <br />
+      <br />
+      <label for="Datum">Birthday:</label>
+      <input
+        type="date"
+        name="datum rodjenja"
+        id="Datum"
+        min="1940-01-10"
+        max="2023-01-01"
+      />
+      <br />
+      <br />
+      <p>Odaberite nekoliko stavki:</p>
+      <label for="banana">banana</label>
+      <input type="checkbox" name="banana" id="banana" />
+      <br />
+      <br />
+      <label for="Jagona">Jagoda</label>
+      <input type="checkbox" name="Jagona" id="Jagona" checked />
+      <br />
+      <br />
+      <label for="Kivi">Kivi</label>
+      <input type="checkbox" name="Kivi" id="Kivi" />
+      <br />
+      <br />
+      <hr />
+      <p align="center">Drugi Deo Forme.html</p>
+      <br />
+      <p>Unestie vas pol</p>
+      <label for="male">Musko</label>
+      <input type="radio" name="m" id="male" value="male" />
+      <label for="female">Zensko</label>
+      <input type="radio" name="m" id="female" value="female" />
+      <!-- Kod Taga "type="radio" uvek se koristi value-->
+      <br />
+      <br />
+      <label for="eyeColor">Eye color</label>
+      <select name="eyeColor" id="eyeColor">
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+        <option value="brown" selected>brown</option>
+        <!-- Tag "select" koristimo za odabir vise opcija. -->
+      </select>
+      <br />
+      <br />
+      <label for="Biografija">Ispisite vasu biografiju:</label> <br />
+      <textarea
+        name="Biografija"
+        id="Biografija"
+        cols="20"
+        rows="10"
+        maxlength="25"
+      >
+      Moje ime je...</textarea
+      >
+      <!-- Maxlengthje za broj karaktera -->
+      <br />
+      <br />
+      <label for="phone">Unesite Broj mobilnog telefona</label>
+      <input type="tel" name="telefon" id="phone" />
+      <br />
+      <br />
+      <label for="color">Vasa omiljena boja</label>
+      <input type="color" name="boje" id="color" />
+      <br />
+      <br />
+      <button type="reset">Resetuj</button>
+      <button type="submit">Potvrdi</button>
+    </form>
+  </body>
+</html>

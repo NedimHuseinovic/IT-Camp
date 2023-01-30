@@ -1,0 +1,109 @@
+body {
+  background-image: url(./1097556-best-nikes-wallpaper-1920x1080-for-ipad-2.jpg);
+  background-position: center;
+}
+
+* {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+header {
+  background-color: rgba(0, 0, 255, 0.1);
+  display: inline-block;
+  margin-right: 0px;
+  height: auto;
+  width: 100%;
+  text-decoration: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  font-size: larger;
+  text-decoration: none;
+}
+#img1 {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.header1 {
+  width: 500px;
+  background: transparent;
+  word-spacing: 30px;
+  box-sizing: content-box;
+  height: 10px;
+  text-decoration: none;
+  margin-left: 23%;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  margin: auto 40px auto;
+  text-align: justify;
+  text-align-last: center;
+  color: white;
+}
+div {
+  display: inline-block;
+  margin: auto;
+  overflow: hidden;
+}
+
+.div1 {
+  line-height: 1.8;
+  display: inline-block;
+  box-shadow: 5px 5px 8px black;
+  padding: 15px 30px;
+  margin-left: 50px;
+  background-color: white;
+  width: 250px;
+  height: 120px;
+  position: relative;
+}
+
+.div2 {
+  line-height: 1.8;
+  display: inline-block;
+  box-shadow: 5px 5px 8px black;
+  padding: 15px 30px;
+  margin-left: 50px;
+  background-color: white;
+  width: 250px;
+  height: 120px;
+}
+
+.div3 {
+  line-height: 1.8;
+  display: inline-block;
+  box-shadow: 5px 5px 8px black;
+  padding: 15px 30px;
+  margin-left: 50px;
+  background-color: white;
+  height: 120px;
+  width: 250px;
+}
+.div4 {
+  line-height: 1.8;
+  display: inline-block;
+  box-shadow: 5px 5px 8px black;
+  padding: 15px 30px;
+  height: 120px;
+  margin-left: 50px;
+  width: 250px;
+  background-color: white;
+}
+a {
+  color: inherit;
+}
+.div1:hover {
+  height: 150px;
+}
+.div2:hover {
+  height: 200px;
+}

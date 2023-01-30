@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(228, 165, 30);
+}
+
+.div1 {
+  background-image: url(./R.jpeg);
+  height: 500px;
+  color: white;
+  background-repeat: no-repeat;
+  /* background-size: 400px 200px; 1.Sirina 2.Visina */
+  /* background-size: 100% 100%; */
+  /* background-size: cover; */
+  /* background-size: contain; Samo se visina popunjava */
+  background-size: contain;
+}
+
+ul {
+  margin: auto;
+  width: 500px;
+  list-style-position: inside;
+}
+
+li:nth-of-type(odd) {
+  background-color: rgb(255, 115, 0);
+}
+li:nth-of-type(even) {
+  background-color: aqua;
+}
+li:nth-last-child(1) {
+  background-color: green;
+}

@@ -1,0 +1,45 @@
+body {
+  background-color: royalblue;
+}
+/* ID se obicno korsti kada zelimo da se primeni samo jednom u nekom tagu */
+/* ID ima prioritet nad klasom. */
+/* Klasa se otvara sa ".", dok se ID otvara sa "#" */
+#div1-id {
+  background-color: aquamarine;
+}
+
+.div1 {
+  background-color: indianred;
+  /* text-align: center; */
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.div1 h2 {
+  text-align: center;
+}
+.div1 p {
+  /* text-align: left; tekst poravnat sa leve strane*/
+  /* text-align: start; tekst poravnat sa leve strane*/
+  /* text-align: right; tekst poravnat sa desne strane */
+  /* text-align: end; tekst poravnat sa desne strane */
+  /* text-align: justify; tekst je poravnat sa obe strane */
+  text-align: center;
+  text-indent: 30px; /*Uvuceno sa leve strane prvi red*/
+  text-align-last: right; /*Uvucen samo zadnji red*/
+  /* text-transform: none; default vrednost */
+  /* text-transform: capitalize; svaka rec pocinje Velikim slovom */
+  /* text-transform: uppercase; sva slova su Velika */
+  /* text-transform: lowercase; sva slova su Mala */
+  text-transform: lowercase;
+}
+.div2 {
+  background-color: lightseagreen;
+  text-align: start;
+}
+.div:nth-of-type(2) h2 {
+  text-align: left;
+}
+.div:nth-of-type(3) h2 {
+  text-align: right;
+}

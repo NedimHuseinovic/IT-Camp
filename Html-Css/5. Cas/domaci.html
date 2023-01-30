@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: aquamarine">
+    <h2 align="center">Prijavite se kako bi dobili raspored casova</h2>
+    <form action="../4. Cas/domaci (raspored).html" target="_blank">
+      <label for="Username">Unesite Username:</label>
+      <input
+        type="text"
+        name="username"
+        id="Username"
+        required
+        placeholder="Username"
+      />
+      <br />
+      <br />
+      <label for="email">Unesite Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="Email Adresa"
+      />
+      <br />
+      <br />
+      <label for="password">Unesite lozinku:</label>
+      <input
+        type="password"
+        name="lozinka"
+        id="password"
+        min="4"
+        placeholder="Password"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="birthday">Unesite datum rodjenja</label>
+      <input
+        type="date"
+        name="datum rodjenja"
+        id="birthday"
+        min="2003-01-01"
+        max="2006-01-01"
+      />
+      <br /><br />
+      <button type="submit">Uloguj se</button>
+      <button type="reset">Resetuj</button>
+    </form>
+  </body>
+</html>
