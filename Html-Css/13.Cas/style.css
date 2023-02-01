@@ -34,3 +34,10 @@ body {
   /* display: none; 
   visibility: hidden;
 } */
+
+.icon {
+  color: brown;
+  font-size: xx-large;
+  margin-left: 45%;
+  margin-top: 20px;
+}
