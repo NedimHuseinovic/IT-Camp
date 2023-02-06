@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+.box1{
+    background-color: rgba(4, 245, 245, 0.5);
+    float: left;
+}
+.box2{
+    background-color: rgb(136, 3, 136);
+    float: left;
+}
+.box3{
+    background-color: rgb(224, 142, 114);
+    float: left;
+}
+.box4{
+    background-color: rgb(113, 113, 243);
+    clear: both;
+    float: left;
+}
+.box5{
+    background-color: rgb(255, 204, 0);
+}
+.box6{
+    background-color: rgb(173, 255, 47);
+}
+.box7{
+    background-color: rgb(105, 105, 105);
+}
+p{
+    clear: both;
+}
