@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  width: 90%;
+  height: 200vh;
+  background-color: rgb(72, 61, 139);
+  margin: 40px auto 0px;
+}
+h1 {
+  font-size: 50px;
+}
+.child1 {
+  background-color: rgb(222, 184, 135);
+  height: 130px;
+  /* position: static; Default vrednost pozicioniranja */
+  /* position: relative; Dobijamo 4 nova CSS svojstva sa position:relative */
+  /* top: ; */
+  /* bottom: ; */
+  /* left: ; */
+  /* right: ; */
+  /* top: 40px; */
+  /* left: 40px; */
+  position: absolute;
+  top: 20px;
+  left: 700px;
+}
+.child2 {
+  background-color: rgb(169, 169, 169);
+  height: 130px;
+  position: fixed;
+  right: 20px;
+}
+.child3 {
+  background-color: rgb(30, 144, 255);
+  height: 130px;
+  position: sticky;
+  top: 40px;
+}
+.child4 {
+  background-color: rgb(55, 153, 55);
+  height: 130px;
+}
