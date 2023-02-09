@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(58, 39, 120, 255);
+}
+
+header {
+  background-image: url(./WhatsApp\ Image\ 2023-02-08\ at\ 21.21.50.jpeg);
+  height: 100px;
+  width: auto;
+  background-position: center;
+}
+.imgheader {
+  height: 60px;
+  width: 200px;
+  margin-left: 300px;
+  margin-top: 15px;
+}
+header p {
+  color: white;
+  display: inline-block;
+  float: right;
+  margin: 0px 300px 0px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+}
+header button {
+  width: 70px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  color: white;
+  margin: 20px 500px 0px;
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.parent {
+  margin: 60px auto 20px;
+  background-color: white;
+  height: 1000px;
+  width: 800px;
+  border: 1px groove rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.child {
+  position: relative;
+  margin: 70px 0px 120px 40px;
+}
+.child p:nth-of-type(2) {
+  margin-top: 20px;
+  height: auto;
+  width: 350px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.icon {
+  font-size: 30px;
+  color: rgba(58, 39, 120, 0.6);
+}
+.picon {
+  margin-left: 20px;
+  font-size: 30px;
+  display: inline-block;
+  color: rgba(58, 39, 120, 0.6);
+}
+.singup {
+  border: 1px groove rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  margin: auto;
+  width: 400px;
+  height: 900px;
+  padding-top: 20px;
+  padding: 20px;
+  position: relative;
+  bottom: 1000px;
+  left: 220px;
+}
+label p {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
+select {
+  padding: 10px;
+  height: 40px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+input {
+  padding: 10px;
+  height: 40px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.divbox {
+  padding: 10px;
+  height: 60px;
+  margin-top: 10px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px groove rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.divbox p {
+  position: relative;
+  bottom: 30%;
+  margin-left: 40px;
+  display: inline-block;
+}
+.divbox img {
+  position: relative;
+  bottom: 10px;
+  float: right;
+  height: 50px;
+  width: 50px;
+}
+.divbox input {
+  position: relative;
+  bottom: 15%;
+  left: 30px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  float: left;
+}
+button {
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: rgba(25, 105, 202, 255);
+  color: white;
+  width: 100%;
+  height: 50px;
+}
+sup {
+  color: red;
+}
+.lastp {
+  text-align: justify;
+  margin-top: 30px;
+  width: 90%;
+}
+.lastp a {
+  text-decoration: underline;
+  color: rgba(25, 105, 202, 255);
+}
