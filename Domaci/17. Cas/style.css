@@ -5,6 +5,11 @@
 header {
   height: auto;
   margin-bottom: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+  border-bottom: 1px solid black;
 }
 header img {
   width: 150px;
@@ -28,6 +33,7 @@ header input {
   top: 25px;
   width: 600px;
   height: 40px;
+  border: 0.7px black solid;
   border-radius: 20px;
   padding-left: 40px;
 }
@@ -206,4 +212,10 @@ h2 {
   position: absolute;
   height: 6px;
   margin-top: 17.5px;
+}
+a:hover{
+  color: blue;
+}
+i:hover{
+  color: blue;
 }
