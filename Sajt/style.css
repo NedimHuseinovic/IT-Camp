@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 255, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header img {
+  width: 350px;
+  height: 90px;
+  position: absolute;
+  left: 35%;
+  top: -10px;
+}
+.icon1 {
+  float: right;
+  margin-top: 20px;
+  font-size: 30px;
+  margin-right: 1.75%;
+}
+.dropbutton {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header button {
+  background-color: transparent;
+  border: 0;
+}
+button i {
+  font-size: 30px;
+}
+.parent {
+  margin: auto;
+  width: 70vw;
+  height: 70vh;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.6);
+}
+.child1 {
+  float: left;
+}
+
+.child1 img {
+  width: 500px;
+  height: 400px;
+}
+.child2 {
+  float: right;
+  height: 500px;
+  margin-right: 70px;
+}
+.child2 p {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+.child2 p:nth-of-type(1) {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  font-size: 16px;
+}
+.child2 p:nth-of-type(2) {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.child2 button:nth-of-type(1) {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 255, 0.6);
+  color: white;
+  border: none;
+  margin-left: 20px;
+}
+p:nth-of-type(3) {
+  color: red;
+  margin-top: -10px;
+}
+.child2 h4,
+button:nth-child(2) {
+  margin-top: 30px;
+}
+.child2 h4 {
+  opacity: 0.5;
+}
+.child2 button {
+  width: 70px;
+  height: 25px;
+  border-radius: 20px;
+  border: 0.5px solid rgba(128, 128, 128, 0.7);
+  margin-right: 15px;
+  margin-top: 10px;
+}
+button:nth-of-type(4) {
+  width: 100%;
+  margin-top: 130px;
+  color: rgba(0, 0, 255, 0.6);
+  cursor: pointer;
+}
+button:nth-of-type(5) {
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.6);
+  color: white;
+  cursor: pointer;
+}
+button:nth-of-type(2):hover {
+  color: white;
+  background-color: black;
+}
+button:nth-of-type(3):hover {
+  color: white;
+  background-color: blue;
+}
