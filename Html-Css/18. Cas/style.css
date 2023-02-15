@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: rgb(158, 124, 57);
+  display: flex;
+  /* flex-direction: row; default vrednost */
+  /* flex-direction: column; */
+
+  /* Horizontalno poravnjanje: */
+  /* justify-content: flex-start; default vrednost horizontalnog poravnanja */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+
+  /* Vertikalno poravnanje: */
+  /* align-items: flex-start; default vrednost vertikalnog poravnanja */
+  /* align-items: flex-end; */
+  align-items: center;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(222, 184, 135);
+}
+.box:nth-of-type(1) {
+  display: flex;
+  align-self: flex-start;
+}
+.box:nth-of-type(2) {
+  background-color: rgb(172, 126, 233);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box:nth-of-type(3) {
+  background-color: rgb(253, 126, 151);
+  align-self: flex-end;
+}
