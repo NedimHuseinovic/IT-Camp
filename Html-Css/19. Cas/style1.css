@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  background-color: rgba(128, 128, 128, 0.6);
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  height: 50vh;
+}
+.chilfirst {
+  height: 250px;
+  width: 250px;
+}
+.childsecond {
+  width: 600px;
+  height: 250px;
+}
+button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+}

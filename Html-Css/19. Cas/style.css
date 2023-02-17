@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: rgb(158, 124, 57);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* flex-wrap: nowrap; default vrednost */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  gap: 15px;
+}
+.first {
+  background-color: darkcyan;
+  height: 100px;
+  /* flex-shrink: 3; */
+  flex-basis: 150px; /* flex-basis je dobra praksa za koriscenje  umesto width. ISTI JE EFEKAT*/
+  /* flex-grow: 1; */
+  /* Order svojstvo nam sluzi za redjanje elementa na stranici po nasoj zelji. MENJAMO HTML POREDATK ELEMENTA */
+  order: 2;
+}
+.second {
+  background-color: chocolate;
+  height: 100px;
+  /* flex-shrink: 1; */
+  width: 100px;
+  /* flex-grow: 1; */
+  order: 3;
+}
+.third {
+  background-color: darkgoldenrod;
+  height: 100px;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  width: 150px;
+  order: 1;
+}
