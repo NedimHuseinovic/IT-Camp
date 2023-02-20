@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: rgb(158, 124, 57);
+  display: flex;
+  flex-direction: column;
+  /* Horizontalno poravnanje: */
+  align-items: flex-end;
+  /* Vertikalno poravnanje: */
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+.box {
+  width: 150px;
+  height: 120px;
+}
+.first {
+  background-color: darkcyan;
+}
+.second {
+  background-color: chocolate;
+}
+.third {
+  background-color: darkgoldenrod;
+}
