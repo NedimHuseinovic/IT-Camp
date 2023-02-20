@@ -40,8 +40,8 @@ header img {
   margin-top: 15px;
 }
 header div {
-    margin-top: 15px;
-  }
+  margin-top: 15px;
+}
 
 button {
   height: 50px;
@@ -155,4 +155,7 @@ button {
 .child2 img {
   width: 40vw;
   height: 450px;
+}
+.parent img {
+  margin-right: 50px;
 }
