@@ -4,6 +4,7 @@
 }
 body {
   font-family: "Rajdhani", sans-serif;
+  overflow-x: hidden;
 }
 header {
   width: 100%;
@@ -43,7 +44,7 @@ header div {
   margin-top: 15px;
 }
 
-button {
+.buttonfirst {
   height: 50px;
   width: 150px;
   border-radius: 25px;
@@ -120,7 +121,7 @@ button {
 }
 .child1 div {
   width: 230px;
-  background-color: rgba(128, 128, 128, 0.1);
+  background-color: rgba(128, 128, 128, 0.3);
 }
 .child1 h1 {
   text-align: center;
@@ -139,14 +140,14 @@ button {
   margin-top: 10px;
 }
 .child1 div:nth-of-type(1) {
-  height: 130px;
+  height: 180px;
 }
 .child1 div:nth-of-type(2) {
   margin-top: 60px;
   margin-left: 80px;
 }
 .child1 div:nth-of-type(3) {
-  height: 130px;
+  height: 180px;
 }
 .child1 div:nth-of-type(4) {
   margin-top: 60px;
@@ -158,4 +159,101 @@ button {
 }
 .parent img {
   margin-right: 50px;
+}
+.parent2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.box {
+  width: 300px;
+  height: 460px;
+  background-color: rgba(128, 128, 128, 0.3);
+  margin-top: 20px;
+  transition: transform 1s ease 0.5s;
+  border-radius: 10px;
+}
+.box h2,
+p,
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box h2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.box p:nth-of-type(1) {
+  opacity: 0.6;
+}
+.box hr {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 3px;
+}
+.box:hover {
+  transition: 1s;
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 0px 13px black;
+}
+.true {
+  color: green;
+  margin-right: 10px;
+  opacity: 1;
+}
+.false {
+  color: red;
+  margin-right: 10px;
+  opacity: 1;
+}
+.box button {
+  background-color: transparent;
+  border: 1px solid black;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 28%;
+  margin-top: 20px;
+}
+.box button:hover {
+  color: white;
+  background-color: black;
+}
+footer {
+  background-color: grey;
+  height: 160px;
+  margin-top: 30px;
+}
+.firstanimation {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: lime;
+  transition: transform 0.5s ease-in 0.5s;
+}
+.secondanimation {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: lime;
+  float: right;
+  transition: transform 0.5s ease-in-out 0.5s;
+}
+footer:hover .firstanimation {
+  transform: translateX(2600%);
+  transition: 1s;
+}
+footer:hover .secondanimation {
+  transform: translateX(-2600%);
+  transition: 1s;
+}
+.copyright {
+  clear: both;
+  width: 320px;
+  height: 20px;
+  margin: auto;
+  position: relative;
+  top: 40px;
+  color: white;
 }
