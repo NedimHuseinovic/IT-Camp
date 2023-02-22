@@ -170,7 +170,7 @@ header div {
   height: 460px;
   background-color: rgba(128, 128, 128, 0.3);
   margin-top: 20px;
-  transition: transform 1s ease 0.5s;
+  transition: all 1s ease 0.5s;
   border-radius: 10px;
 }
 .box h2,
@@ -219,6 +219,8 @@ h1 {
 .box button:hover {
   color: white;
   background-color: black;
+  cursor: pointer;
+
 }
 footer {
   background-color: grey;
