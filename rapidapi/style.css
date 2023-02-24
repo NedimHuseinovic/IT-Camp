@@ -18,6 +18,7 @@ header:nth-of-type(1){
   position: sticky;
   top: 0;
   z-index: 100;
+  
 }
 header img {
   width: 120px;
@@ -47,7 +48,7 @@ input::placeholder {
   opacity: 0.6;
 }
 .inputicon {
-  position: relative;
+  position: absolute;
   top: 25px;
   right: 465px;
   color: white;
@@ -234,8 +235,8 @@ text-decoration: underline;
 }
 .section4 div:nth-of-type(1) header i{
   position: absolute;
-  top: 15;
-  left: 40px;
+  top: 15px;
+  left: 140px;
 }
 .section4 div:nth-of-type(1) div:nth-of-type(1){
   height: 30px;
@@ -435,6 +436,7 @@ text-decoration: underline;
     font-size: 20px;
     margin-right: 100px;
     margin-top: 20px;
+    margin-bottom: 10px;
   }
   footer{
     height: 15vh;
@@ -449,6 +451,10 @@ text-decoration: underline;
     text-align: left;
     width: 100%;
     margin-bottom: 10px;
+  }
+  .footerlinks{
+    width: 600px;
+    text-align: left;
   }
   footer div:nth-of-type(1) p:nth-of-type(2){
     width: 100%;
@@ -469,7 +475,6 @@ text-decoration: underline;
     text-align: right;
   }
   footer div:nth-of-type(2) div:nth-of-type(1){
-    text-align: right;
     border: 0;
   }
   footer i{
