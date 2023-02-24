@@ -82,9 +82,149 @@
             </h4>
         </div>
         <div class="section4">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+                <header>
+                    <form action="#">
+                        <input type="text" placeholder="Search endpoints">
+                    </form>
+                    <i class="fa-solid fa-magnifying-glass inputicon "></i>
+                </header>
+                <div>
+                    <p>GET</p>
+                    GetCountries
+                </div>
+                <div>
+                    <p>GET</p>
+                    GetCovidStats
+                </div>
+            </div>
+            <div class="child2">
+                <div>
+                    <header>
+                        <p>GET</p>
+                        <h3>GetCountries</h3>
+                        <button>
+                            <i class="fa-solid fa-arrow-right-arrow-left buttonicon"></i>
+                            Test Endpoint
+                        </button>
+                    </div>
+                </header>
+                <div>
+                    <p>
+                        List all COVID-19 countries and their country codes. The
+                        country code will be required to get Statistics for the specific 
+                        country.
+                    </p>
+                    <p>
+                        Parameters : -
+                        <br>
+                        sorted : Show countries sorted alphabetically
+                    </p>
+                </div>
+                <div>
+                    <p style="color: white;">Request URL</p>
+                    <select name="select" id="select">
+                        <option value="rapidapi.com">rapidapi.com</option>
+                    </select>
+                    <p>REQUIRED</p>
+                </div>
+                <div class="child2-1">
+                    <header>
+                        <h3>Header Parameters</h3>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </header>
+                    <p>X-RapidAPI-Key</p>
+                    <select name="" id="">
+                        <option value="singup">SING-IP-FOR-KEY</option>
+                    </select>
+                    <P>ENUM</P>
+                    <p>REQUIRED</p>
+                    <p>X-RapidAPI-Host</p>
+                    <div>worldometer-covid-19.p.rapidapi.com</div>
+                    <p>STRING</p>
+                    <p>REQUIRED</p>
+                </div>
+                <div class="child2-1">
+                    <header>
+                        <h3>Optional Parameters</h3>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </header>
+                    <p>sorted</p>
+                    <select name="" id="">
+                        <option value="True">True</option>
+                        <option value="False">False</option>
+                        <option value="Include">Do Not Incude in request</option>
+                    </select>
+                    <p>BOOLEAN</p>
+                    <P>OPTIONAL</P>
+                </div>
+            </div>
+            <div class="child3">
+                <header>
+                    <h3>Code Snippets</h3>
+                </header>
+                <div>
+                    const axios = require("axios");
+                    <br>
+                    <br>
+                    const options = {
+                    <br>
+                    method: 'GET',
+                    <br>
+                    url: 'https://worldometer-covid-19.p.rapidapi.com/GetCountries',
+                    <br>
+                    params: {sorted: 'true'},
+                    <br>
+                    headers: {
+                    <br>
+                    'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
+                    <br>
+                    'X-RapidAPI-Host': 'worldometer-covid-19.p.rapidapi.com'
+                    <br>
+                    }
+                    <br>
+                    };
+                    <br>
+                    <br>
+                    axios.request(options).then(function (response) {
+                    <br>
+                    console.log(response.data);
+                    <br>
+                    }).catch(function (error) {
+                    <br>
+                    console.error(error);
+                    <br>
+                    });
+                </div>
+            </div>
         </div>
+        <div class="section5">
+            <p>Rating:5- Votes: 1</p>
+        </div>
+        <footer>
+            <div>
+                <p>Home > Worldometer Covid 19</p>
+                <p>Language: us English</p>
+            </div>
+            <div>
+                <p>
+                    © 2023 RapidAPI. All Rights Reserved.
+                </p>
+                <div class="footerlinks">
+                    <a href="">About</a>
+                    <a href="">Blog</a>
+                    <a href="">Learn</a>
+                    <a href="">Careers</a>
+                    <a href="">Team</a>
+                    <a href="">Press</a>
+                    <a href="">Contact</a>
+                    <a href="">Terms</a>
+                    <a href="">Privacy</a>
+                </div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </footer>
     </body>
 </html>
