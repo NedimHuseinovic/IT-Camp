@@ -19,6 +19,7 @@
     /* grid-auto-rows: 180px; */
     /* minmax() funkcija zahteva 2 argumenta, gde prvi predstavlja minimalnu visinu, a drugi maksimalnu visinu reda (u slucaju potrebe za povecanjem). */
     grid-auto-rows: minmax(180px, auto);
+    grid-template-rows: 7vh 7vh 20vh 20vh;
   
     /* Razmak izmedju redova: */
     /* grid-row-gap: 15px; */

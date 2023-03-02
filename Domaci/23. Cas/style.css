@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.all{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(10vh, auto);
+}
+.header1{
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-gap: 5px;
+    margin: auto;
+    width: 1250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header1 img{
+    width: 50px;
+    height: 50px;
+}
+.header1 img:hover{
+    transform: scale(1.5,1.5);
+}
+.header2{
+    background-color: #37003c;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.header2 img{
+    width: 100px;
+    height: 100px;
+}
+.links{
+    width: 800px;
+    margin-right: 130px;
+    font-size: 26px;
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+    justify-content: center;
+    align-content: center;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    
+}
+.signin{
+    width: 250px;
+    height: 70px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-left: grey solid 1px;
+    border-right: grey solid 1px;
+    padding: 10px;
+}
+.signin h1{
+    font-size: 22px;
+    color: white;
+}
+.icon{
+    font-size: 30px;
+    color: gray;
+    position: relative;
+    top: 35px;
+    left: 70px;
+}
+section{
+    background-color: #37003c;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    height: 150px;
+}
+section h1{
+    font-size: 80px;
+    color: white;
+}
+section input{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    height: 40px;
+    padding: 20px;
+    position: relative;
+    right: 250px;
+    top: 35px;
+}
+section input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+section button{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 250px;
+    top: 35px;
+    border-radius: 5px;
+}
+span{
+    margin-left: 5px;
+}
+.inputdiv{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 680px;
+    bottom: 48px;
+}
+.inputdiv i{
+    position: relative;
+    top: 3px;
+    left: 20%;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    grid-column: 1/1;
+}
+.card img{
+    width: 250px;
+    height: 175px;
+}
+.card h4{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+.card p{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+}
+.card h3{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.card h3 a{
+    color: white;
+    text-decoration: underline;
+}
+.card div{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 230px;
+    left: 65px;
+}
+.card div img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.parentcard{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+.parentcard div:nth-of-type(1){
+    background-color: #e62333;
+    
+}
+.parentcard div:nth-of-type(1) div{
+    background-color: white;
+}
+.parentcard div:nth-of-type(2){
+    background-color: #fe0002;
+}
+.parentcard div:nth-of-type(2) div{
+    background-color: white;
+}
+.parentcard div:nth-of-type(3){
+    background-color: #480025;
+}
+.parentcard div:nth-of-type(3) div{
+    background-color: white;
+}
+.parentcard div:nth-of-type(4){
+    background-color: #c61d23;
+}
+.parentcard div:nth-of-type(4) div{
+    background-color: white;
+}
+.parentcard div:nth-of-type(5){
+    background-color: #0054a6;
+}
+.parentcard div:nth-of-type(5) div{
+    background-color: white;
+}
