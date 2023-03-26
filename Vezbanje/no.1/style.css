@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header h1{
+font-size: 20px;
+margin-bottom: 20px;
+text-align: left;
+margin-left: 20px;
+}
+.main{
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.child1 h1{
+    font-size: 58px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.child1 p{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+span{
+    color: blue;
+}
+.child2 h2{
+    margin-bottom: 20px;
+}
+.bigchild{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.bigchild p{
+    text-align: left;
+    margin-left: 15px;
+}
+.bigchild input{
+    width: 200px;
+    height: 30px;
+}
+.smallchild1{
+    margin-bottom: 20px;
+}
+textarea{
+    margin-top: 10px;
+    width: 430px;
+    padding: 10px;
+}
+form{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+button{
+    width: 420px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(79, 16, 150);
+    color: white;
+}
