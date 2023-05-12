@@ -86,17 +86,17 @@ let b = "nase recenice"
 let b2 = "."
 let c = a.concat(b, b2)
 console.log(c)
- NovaRecenica = recenica.replace(/a/g, "B")
-        return O"vo je novodobijena recenica".concat(NovaRecenica)
-    }a ispitivanje"
+
 // Sve metode vezane za stringove prave novi string, ne vrsi se modifikacija postojeceg.
 
 function myFunc(recenica){
     if(recenica.length > 9){
-        const
+        const NovaRecenica = recenica.replace(/a/g, "B")
+        return "Ovo je novodobijena recenica".concat(NovaRecenica)
     }
-    else{ nedovoljna z
-        return "Recenica je
-}fikaciju"))
+    else{
+        return "Recenica je nedovoljna za ispitivanje"
+    }
+}
+console.log(myFunc("Recenica za modifikaciju"))
 console.log(myFunc("Nije do"))
-console.log(myFunc("Recenica za modi
