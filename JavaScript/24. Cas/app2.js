@@ -46,3 +46,4 @@ console.log(z === w)
 
 let broj = 0xFF
 console.log(broj)
+console.log(broj)

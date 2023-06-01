@@ -14,3 +14,4 @@ function protectUser(email) {
 }
 console.log(protectUser("robin_singh@example.com"))
 console.log(protectUser("robin.singh@example.com"))
+console.log(protectUser("robin.singh@example.com"))

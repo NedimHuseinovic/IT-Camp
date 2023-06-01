@@ -11,3 +11,4 @@ druga()
 const druga = () => console.log("druga")
 
 // Za arrow funckije ne vazi hoisting. Moramo je definisati pre koriscenja.
+// Za arrow funckije ne vazi hoisting. Moramo je definisati pre koriscenja.
