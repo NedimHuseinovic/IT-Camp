@@ -8,3 +8,4 @@ const third = (recenica) => {
 }
 
 console.log(third("Pera ima devojku"))
+console.log(third("Pera ima devojku"))

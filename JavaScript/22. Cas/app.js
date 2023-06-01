@@ -42,3 +42,4 @@ const newString = (A, Z) => {
 }
 
 console.log(newString("Madagaskar", `a`))
+console.log(newString("Madagaskar", `a`))
