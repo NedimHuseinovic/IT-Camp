@@ -8,3 +8,4 @@ function zbirCifara(broj){
     return brojac
 }
 console.log(zbirCifara(379))
+console.log(zbirCifara(379))

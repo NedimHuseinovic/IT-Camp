@@ -49,6 +49,7 @@ const deoStringa = (string, pocetak, kraj) =>{
     return string.substr(pocetak, kraj + 1 - pocetak) //drugi nacin
 }
 console.log(deoStringa("Hello, World", 7, 11))
+console.log(deoStringa("Hello, World", 7, 11))
 
 
 
