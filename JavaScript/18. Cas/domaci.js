@@ -11,3 +11,4 @@ function isPalindrom(string){
 }
 console.log(isPalindrom("Radar"))
 console.log(isPalindrom("Hello"))
+console.log(isPalindrom("Hello"))

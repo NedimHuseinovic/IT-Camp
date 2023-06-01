@@ -71,3 +71,4 @@ function najduzaRec(string){
 }
 
 console.log(najduzaRec(recenica))
+console.log(najduzaRec(recenica))
