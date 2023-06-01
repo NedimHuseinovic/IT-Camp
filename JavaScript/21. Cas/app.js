@@ -49,3 +49,4 @@ else{
 console.log(zadatak("Treba imati VISE malih slova"))
 console.log(zadatak("Treba imati VISE VELIKIH SLova"))
 console.log(zadatak("Treba imati PODJEDNAK broJJ "))
+console.log(zadatak("Treba imati PODJEDNAK broJJ "))

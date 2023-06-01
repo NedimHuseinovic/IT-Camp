@@ -26,6 +26,7 @@ const second = (recenica) => {
 }
 
 console.log(second("Koliko ima MALIH SLOVA?"))
+console.log(second("Koliko ima MALIH SLOVA?"))
 
 
 
