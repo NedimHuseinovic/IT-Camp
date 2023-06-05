@@ -20,6 +20,9 @@
 // 2.
 const second = () =>{
     const brojSekundi = +prompt("Unesite broj sekundi: ")
-    const sati = brojSekundi / 3600
-    
+    const sati = Math.floor(brojSekundi / 3600)
+    const minuti = Math.floor((brojSekundi % 3600) / 60)
+    const sekunde = brojSekundi % 60
+    return `${sati}h ${minuti} m ${sekunde} s`
 }
+console.log(second())
