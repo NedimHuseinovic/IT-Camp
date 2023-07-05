@@ -51,3 +51,4 @@ console.log(suma)
 // mozemo dodati pocetnu vrednost, ona predstavlja drugi parametar callback funckije
 const suma2 = godine.reduce((prev, curr) => prev + curr, 100)
 console.log(suma2)
+console.log(suma2)

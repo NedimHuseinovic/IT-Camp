@@ -37,3 +37,4 @@ const brojeviNegatvni = brojevi3.map((element) =>{
 }
 )
 console.log(brojeviNegatvni)
+console.log(brojeviNegatvni)
