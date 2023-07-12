@@ -20,7 +20,7 @@ console.log(godine3)
 
 function pomocniNiz(arr1,arr2){
     const pomocniNiz2 = arr1.concat(arr2)
-    const pomocniNiz3 = pomocniNiz2.filter((element) => element % 2 === 0)
+    const pomocniNiz3 = pomocniNiz2.filter((element) => element % 2 === 0) dcdcdf      
     pomocniNiz3.unshift(10,20)
     return `First helper: ${pomocniNiz2}
     second helper: ${pomocniNiz3}` 
